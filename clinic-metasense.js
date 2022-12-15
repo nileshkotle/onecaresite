@@ -1,5 +1,5 @@
 <script>
-	
+	console.log("----helo-----",helo);
 var Webflow = Webflow || [];
 Webflow.push(function () {
   $(document).off("submit");
