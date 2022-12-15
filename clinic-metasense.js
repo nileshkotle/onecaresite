@@ -1,9 +1,10 @@
-<script>
-	console.log("----helo-----",helo);
 var Webflow = Webflow || [];
 Webflow.push(function () {
   $(document).off("submit");
 });
+
+console.log("====updated====");
+
 const navbarLogo = document.getElementById("navbarLogo");
 navbarLogo.src =
   "https://uploads-ssl.webflow.com/62eabe682fd502f7a527aa06/63972a1185f836677a924dc4_OneCareMetasense.png";
@@ -306,5 +307,3 @@ function resetForms() {
   demoFormError.style.display = "none";
   demoFormError.innerHTML = generalError;
 }
-
-</script>
