@@ -1,4 +1,3 @@
-<script> 
 var Webflow = Webflow || [];
 Webflow.push(function () {
   $(document).off("submit");
@@ -305,4 +304,3 @@ function resetForms() {
   demoFormError.style.display = "none";
   demoFormError.innerHTML = generalError;
 }
-</script>
